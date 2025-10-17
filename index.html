@@ -80,9 +80,45 @@
                 </p>
                 <p>
                     <strong>Narrative:</strong><br />
-                    This Kotlin-based mobile inventory application was originally created in Java during earlier coursework and later refactored to Kotlin. I selected this artifact because it demonstrates my growth in software design and engineering, especially in transitioning from procedural to modular architecture. The enhancements — including Firebase integration, centralized validation, and UI improvements — showcase my ability to modernize legacy code and apply scalable design principles. Through this process, I learned the importance of maintainable architecture and asynchronous data handling. Challenges included resolving Gradle build errors and designing reusable validation logic. Feedback from code reviews helped me modularize UI logic and improve testability. This artifact meets outcomes related to software engineering, cloud integration, and structured communication.
-                </p>
-                <p>
+                    This Kotlin-based mobile inventory application was originally developed in Java during earlier coursework and later refactored to Kotlin to align with modern Android development practices. I selected this artifact because it reflects my evolution as a software engineer, particularly in transitioning from procedural code to a modular, object-oriented architecture. The migration process involved decomposing monolithic logic into reusable components, centralizing input validation, and integrating Firebase Authentication and Firestore for secure, cloud-based data management.
+                    One of the most impactful enhancements was the introduction of item-level editing and deletion, which required careful synchronization between the UI and Firestore. I implemented asynchronous listeners to ensure real-time updates and consistent state management across views. Additionally, I created a centralized validation utility to enforce input rules across multiple fragments and composables, improving maintainability and reducing redundancy.
+                    Challenges included resolving Gradle build errors related to dependency mismatches and designing a flexible validation system that could be extended without modifying core logic. Through iterative code reviews, I refined my approach to UI modularization and improved testability using MockK and JUnit. This artifact demonstrates my ability to refactor legacy code, apply scalable design principles, and integrate cloud services effectively. It aligns with course outcomes in software engineering, cloud integration, and structured communication.
+                    Here’s a sample of the actual validation logic used across authentication and item management flows:
+                    object InputValidator {
+
+                    fun isNotEmpty(vararg inputs: String): Boolean {
+                    if (inputs.isEmpty()) return false
+                    return inputs.all { it.trim().isNotEmpty() }
+                    }
+
+                    fun isValidEmail(email: String): Boolean {
+                    val trimmed = email.trim()
+                    val emailRegex = Regex("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}$")
+                    return trimmed.isNotEmpty() && emailRegex.matches(trimmed)
+                    }
+
+                    fun isStrongPassword(password: String): Boolean {
+                    val trimmed = password.trim()
+                    println("DEBUG: password='$password', trimmed='$trimmed'")
+
+                    if (trimmed.isEmpty()) {
+                    println("DEBUG: Empty password detected → returning false")
+                    return false
+                    }
+
+                    if (trimmed.length < 8) {
+                    println("DEBUG: Too short → returning false")
+                    return false
+                    }
+
+                    return true
+                    }
+                    }
+
+                    
+                    This object-oriented approach allows consistent validation across composables and view models, promoting separation of concerns and simplifying unit testing. It also supports future enhancements such as password strength indicators or localized error messages.
+                    </p>
+<p>
                     <a href="https://github.com/s10man33/cs-499-capstone/tree/main/Enhancement%20One" target="_blank">
                         🔗 View Enhancement One Files on GitHub
                     </a>

@@ -31,8 +31,7 @@
               "ViewState": "AgIAACQAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-10-16T22:41:54.384Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -42,7 +41,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Darrell\\Documents\\CS-499-Capstone\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAHcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-10-16T22:41:25.81Z",
               "EditorCaption": ""
