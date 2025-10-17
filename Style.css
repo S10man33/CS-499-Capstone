@@ -1,0 +1,129 @@
+﻿/* Global styles */
+body {
+    background-color: #fff9c4; /* Light yellow */
+    font-family: "Segoe UI", "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 6rem; /* Increased size for visibility */
+    font-style: italic;
+    font-family: "Brush Script MT", cursive;
+    margin: 0;
+    line-height: 1.1;
+    /* Optional enhancements */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Adds depth */
+    letter-spacing: 1.5px; /* Slight spacing for elegance */
+}
+
+
+.header-content h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0 0;
+    font-weight: normal;
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 3rem;
+}
+
+    /* Section headings */
+    section h2 {
+        color: #004080;
+        border-bottom: 2px solid #666;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.75rem;
+    }
+
+/* Self-assessment styling */
+#self-assessment {
+    text-align: left;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fffde7;
+    border-left: 4px solid #004080;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+    #self-assessment p {
+        margin-bottom: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+/* Video section */
+#video video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#video p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1rem;
+}
+
+/* Artifact blocks */
+#artifacts article {
+    background-color: #fffde7;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-left: 4px solid #004080;
+    text-align: left;
+    max-width: 800px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+#artifacts h3 {
+    color: #004080;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+#artifacts p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Contact section */
+#contact p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+#contact a {
+    color: #004080;
+    text-decoration: none;
+}
+
+    #contact a:hover {
+        text-decoration: underline;
+    }
+
+/* Footer */
+footer {
+    background-color: #ddd;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
