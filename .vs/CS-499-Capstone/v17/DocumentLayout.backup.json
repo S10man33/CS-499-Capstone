@@ -28,9 +28,11 @@
               "RelativeDocumentMoniker": "Style.css",
               "ToolTip": "C:\\Users\\Darrell\\Documents\\CS-499-Capstone\\Style.css",
               "RelativeToolTip": "Style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-16T22:41:54.384Z"
+              "WhenOpened": "2025-10-16T22:41:54.384Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +42,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Darrell\\Documents\\CS-499-Capstone\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHsAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAHwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-10-16T22:41:25.81Z",
               "EditorCaption": ""
